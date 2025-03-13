@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+            
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #ffffff;
+                background-size: cover;
+                background-image: url('exo1.png');
+                font-size: 18px;
+            } 
+            .container {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                width: 600px;
+                backdrop-filter: blur(5px);
+                background: rgba(255, 255, 255, 0.2);
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                color: black;
+            }
+            
+            .button-container {
+                padding: 10px 20px;
+                background: #f78fb3;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 8px;
+                font-size: 18px;
+                transition: 0.3s;
+            }
+            .button-container:hover {
+                background: #ff6b81;
+            }
+            
+            .warna {
+                background-color: rgb(208, 208, 178);
+                font-weight: bold;
+            }
+            
+            table {
+                font-size: 16px;
+                border-collapse: collapse;
+                margin: auto;
+                width: 100%;
+            }
+            
+            th, td {
+                padding: 15px;
+                border: 1px solid black;
+                text-align: center;
+                font-weight: bold;
+            }
+            
+            nav {
+                position: absolute;
+                top: 25px;
+                left: 75px;
+            }
+            
+            nav a {
+                font-size: 16px;
+                color: black;
+                text-decoration: none;
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-radius: 10px;
+                margin: 5px;
+                display: inline-block;
+                transition: background 0.3s ease;
+            }
+            
+            nav a:hover {
+                background-color: #88743c;
+                color: rgb(0, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Jadwal Kelas A Ilkom 23</h1>
+            <table>
+                <tr>
+                    <th rowspan="2" style="background-color: #88743c;">Jam</th>
+                    <th colspan="6" style="background-color: #88743c;">Hari</th>
+                </tr>
+                <tr>
+                    <td class="warna">Senin</td>
+                    <td class="warna">Selasa</td>
+                    <td class="warna">Rabu</td> 
+                    <td class="warna">Kamis</td>
+                    <td class="warna">Jum'at</td> 
+                </tr>
+                <tr>
+                    <td class="warna">07:30 - 8:40</td>
+                    <td></td>
+                    <td>TI</td>
+                    <td></td>
+                    <td></td>
+                    <td>PDT (T)</td>
+                </tr>
+                <tr>
+                    <td class="warna">08:50 - 10:00</td>
+                    <td>TAM (T)</td>
+                    <td>ADSI (T)</td>
+                    <td>IOT (R)</td>
+                    <td>ML (T)</td>
+                    <td>ML (R)</td>
+                </tr>
+                <tr>
+                    <td class="warna">10:10 - 11:20</td>
+                    <td></td>
+                    <td>AI (T)</td>
+                    <td></td>
+                    <td>ADSI (R)</td>
+                    <td>AI (R)</td>
+                </tr>
+                <tr>
+                    <td class="warna">12:30 - 13:40</td>
+                    <td>IOT (T)</td>
+                    <td></td>
+                    <td></td>
+                    <td>TAM (R)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="warna">13:50 - 15:00</td>
+                    <td>PDT (R)</td>
+                    <td></td>
+                    <td></td>
+                    <td>WEB (R)</td>
+                    <td>WEB (T)</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
